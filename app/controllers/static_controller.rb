@@ -1,8 +1,4 @@
 class StaticController < ApplicationController
-  def about
-    get '/hello_world' do
-      erb :about
-    end
-    
+  def hello_world
   end
 end
